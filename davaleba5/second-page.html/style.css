@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  
     
 }
 header nav ul li a{
@@ -17,11 +19,22 @@ header li{
     margin: 0 auto;
     padding: 20px;
 }
-.conteiner{
- max-width: 800px;
- border-radius: 100px;
- 
+.page-wrapper{
+    background-color: red;
+   padding: 50px 20px;
+   min-height: 100vh;
    
+}
+.content-card{
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+}
+.content-card h1, h2, h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
 
 }
 
