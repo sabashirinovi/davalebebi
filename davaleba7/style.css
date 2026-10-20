@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+ 
+}
+.fa-regular{
+    font-size:30px;
+    color:blue;
+    position:fixed;
+    right:30px;
+    bottom:30px;
+    cursor:pointer;
+   
+}
+header{
+    display:flex;
+    align-items:center;
+     justify-content:space-evenly;
+     border-bottom:1px solid rgb(230, 224, 229);
+   background: #FFFFFF;
+    color:black;
+    padding:20px;
+   
+    
+}
+img{
+    max-width:100%;
+   border-radius:10px;
+}
+
+
+header li{
+    display:inline-block;
+    margin:0;
+    padding:20px;
+}
+
+header nav ul li a{
+     text-decoration: none;
+     color:black;
+     font-size:13px;
+  
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.label{
+    background-color:rgb(219, 67, 212);
+    padding:10px;
+  
+  
+}
+.M{
+    background-color:rgb(219, 67, 212);
+    padding:10px;
+    border-radius:50%;
+    width:50px;
+    height:50px;
+}
+.text h1{
+    font-size:32px;
+    margin-bottom:25px;
+    line-height:1.4;
+    color:#222;
+}
+.row{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:20px;
+    justify-content: space-evenly;
+    border-bottom:  rgb(230, 224, 229);
+
+}
+.label-2{
+     background-color:rgb(219, 67, 212);
+    padding:10px;
+    width:max-content;
+    margin-top:20px;
+    border-radius:20px;
+    color:white;
+    cursor:pointer;
+}
+.image{
+ background-color:white;
+ color:white;
+}
+.numbers{
+   display:flex;
+   gap:20px;
+   justify-content:center;
+   align-items:stretch;
+   margin-bottom:100px;
+  
+
+}
+.year{
+     background-color:rgb(219, 67, 212);
+   
+    
+}
+.project{
+  background-color:rgb(219, 67, 212);
+}
+.client{
+  background-color:rgb(219, 67, 212);
+}
+/* pirveli nawili */
+
+
+
+
+
+/* meore nawili */
+.container-2{
+ width:100%;
+ max-width:1200px;
+ min-height:600px;
+margin:80px auto;
+padding:60px;
+}
+.row-2{
+display:flex;
+align-items:center;
+justify-content:center; 
+gap:20px;
+}
+.img{
+width:365px;
+flex:0 0 365px;
+position:relative;
+
+}
+.img img{
+width: 100%;
+height: 420px;
+border-radius:10px;
+display:block;
+object-fit:cover;
+}
+.social{
+position:absolute;
+bottom:-25px;
+left:50%;
+transform:translateX(-50%);
+display:flex;
+align-items:center;
+gap:20px;
+padding:15px 20px;
+background-color:white;
+border-radius:10px;
+box-shadow:0px 0px 10px rgba(0, 0, 0, 0.2);
+cursor:pointer;
+font-size:20px;
+}
+  .text-2{
+flex:1;
+max-width:500px;
+  }
+  .text-2 h1{
+font-size:32px;
+margin-bottom:25px;
+line-height:1.4;
+color:#222;
+}
+.text-2 p{
+font-size:16px;
+margin-bottom:15px;
+}
+.label-3.label-4{
+display:flex;
+align-items:center;
+gap:10px;
+padding:10px 20px;
+margin-top:20px;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}
+.label-3{
+background-color:rgb(219, 67, 212);
+color:white;
+
+}
+
+.label-4{
+background-color:white;
+color:rgb(219, 67, 212);
+}
+
+
+
+
+ 
+
+
+   
+
+
+
+
+
+
+
+
