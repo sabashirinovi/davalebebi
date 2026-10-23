@@ -22,7 +22,8 @@ header{
    background: #FFFFFF;
     color:black;
     padding:20px;
-   
+   position:fixed;
+   width:100%;
     
 }
 img{
