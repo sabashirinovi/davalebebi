@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.dog{
+    font-size: 100px;
+    color: red;
+    animation: move 4s linear infinite;
+    position: relative;
+}
+.bone{
+    font-size:50px;
+    color: blue;
+    animation: move2 4s linear infinite;
+    position: relative;
+}
+@keyframes move{
+    0%{
+        left: 0;
+        top: 0;
+        transform:scaleX(1);
+    }
+    50%{
+        left:800px;
+        top:0px;
+        transform:scaleX(1);
+    }
+    50.1%{
+       
+        transform:scaleX(-1);
+    }
+    100%{
+       left:0px;
+       transform:scaleX(-1);
+    }
+}
+@keyframes move2{
+    0%,  50% {
+        left: 0;
+        top: 0;
+        transform:scaleX(1);
+    }
+   
+    100%{
+        left:-800px;
+        
+    }
+        
+    
+}
